@@ -1,103 +1,19 @@
-rzkala-dashboard/
-├── README.md
-├── requirements.txt          # duckdb, pandas, plotly, streamlit/dash (آخر انتخاب)
-├── data/
-│   ├── sample/               # دیتای دمو (ساختگی)
-│   │   ├── orders.csv
-│   │   ├── traffic.csv
-│   │   └── ad_spend.csv
-│   └── user_uploads/         # فایل‌های مشتری
-├── src/
-│   ├── data_generator.py     # ژنراتور دیتای فیک رزکالا
-│   ├── mapper.py             # تشخیص هوشمند ستون‌ها + Fuzzy Matching
-│   ├── analyzer.py           # موتور SQL با DuckDB (قیف، ROAS، RFM)
-│   └── exporter.py           # خروجی CSV، Excel
-├── dashboard/                # ← این پوشه رو آخر انتخاب می‌کنیم
-│   └── app.py
-└── assets/
-    └── style.css
-1-demo done- itis 2024 sample of beautify stuff and result save into data sample.csv3of them 
+## 📹 دموی تصویری داشبورد
 
-v2
-# ساختار فایل اصلی Streamlit (که ما ازش یاد می‌گیریم)
-app.py
-├── st.set_page_config()           # تنظیمات صفحه
-├── st.file_uploader()             # آپلود فایل
-├── load_data()                    # تابع بارگذاری (sample یا user)
-├── st.date_input() × 2            # فیلتر تاریخ
-├── st.sidebar.multiselect() × 3   # فیلتر آبشاری
-├── filter_data()                  # تابع فیلتر (ما بهترش می‌کنیم)
-├── نمودارها:
-│   ├── px.bar (Category Sales)
-│   ├── px.pie (Region)
-│   ├── px.line (Time Series)
-│   ├── px.treemap (Hierarchy)
-│   ├── px.scatter (Correlation)
-│   └── go.Figure (Pivot Table)
-├── expander + download button
-└── st.plotly_chart()
+<div align="center">
+  <h3>🎬 دمو - قسمت اول</h3>
+  <video width="800" controls poster="demo/thumb1.png">
+    <source src="demo/demo1.mp4" type="video/mp4">
+    مرورگر شما از نمایش ویدیو پشتیبانی نمی‌کند.
+  </video>
+</div>
 
+<br>
 
-
-
-
-
-
-
-rzkala-dashboard/
-│
-├── README.md                      # توضیحات پروژه
-├── requirements.txt               # پیش‌نیازها
-├── .gitignore                     # فایل‌های ignored
-│
-├── data/
-│   ├── sample/                    # دیتای دمو (ساختگی)
-│   │   ├── orders.csv
-│   │   ├── traffic.csv
-│   │   └── ad_spend.csv
-│   └── user_uploads/              # فایل‌های آپلودی مشتری (آینده)
-│       └── .gitkeep
-│
-├── src/
-│   ├── core/                      # 🧠 مغز پروژه (مستقل از نمایش)
-│   │   ├── __init__.py
-│   │   ├── mapper.py              # تشخیص و استانداردسازی ستون‌ها
-│   │   ├── analyzer.py            # موتور SQL با DuckDB
-│   │   └── exporter.py            # خروجی CSV, Excel, HTML, JSON
-│   │
-│   ├── components/                # 🧩 کامپوننت‌های تحلیلی
-│   │   ├── __init__.py
-│   │   ├── kpi_cards.py           # کارت‌های KPI
-│   │   ├── funnel_chart.py        # قیف فروش
-│   │   └── filters.py             # فیلترهای زنجیره‌ای
-│   │
-│   ├── data_generator.py          # 🎲 ژنراتور دیتای فیک
-│   └── main.py                    # 🚀 نقطه ورود اصلی
-│
-├── dashboard/                     # 📊 لایه نمایش (آینده)
-│   ├── __init__.py
-│   └── app.py                     # Streamlit / Dash
-│
-├── output/                        # 📁 خروجی‌های تحلیل
-│   └── .gitkeep
-│
-├── tests/                         # 🧪 تست‌ها (آینده)
-│   └── .gitkeep
-│
-├── scripts/                       # 🔧 اسکریپت‌های کمکی
-│   └── run_all.py                 # اجرای همه تحلیلها یکجا
-│
-└── venv/                          # محیط مجازی (gitignore شده)
-
-
------------
-we add api.py and local host give some result by this command 
- python -c "import requests; r = requests.post('http://localhost:8000/upload', files={'file': open(r'data\user_uploads\2. retail_sales_data.xlsx', 'rb')}); print(r.json())"
-then we usd some to open result 
-http://localhost:8000/api/kpi
-http://localhost:8000/api/trend
-http://localhost:8000/api/rfm
-http://localhost:8000/api/profitability
-http://localhost:8000/api/treemap
-http://localhost:8000/api/scatter
-http://localhost:8000/api/repeat_rate
+<div align="center">
+  <h3>🎬 دمو - قسمت دوم</h3>
+  <video width="800" controls poster="demo/thumb2.png">
+    <source src="demo/demo2.mp4" type="video/mp4">
+    مرورگر شما از نمایش ویدیو پشتیبانی نمی‌کند.
+  </video>
+</div>
