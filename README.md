@@ -1,23 +1,21 @@
 ## 📹 دموی تصویری داشبورد
 
-برای تماشای دموی تعاملی داشبورد، روی هر یک از تصاویر زیر کلیک کنید.
-
 <div align="center">
-  <h3>🎬 دمو - قسمت اول</h3>
-  <a href="https://github.com/H4dise/rzkala-dashboard/blob/main/demo/demo1.mp4?raw=true" target="_blank">
-    <img src="https://github.com/H4dise/rzkala-dashboard/blob/main/demo/thumb1.png?raw=true" alt="دموی داشبورد - قسمت اول" width="600">
+  <h3>🎬 داشبورد با فایل دمو</h3>
+  <a href="https://raw.githubusercontent.com/H4dise/rzkala-dashboard/main/demo/demo1.mp4" target="_blank">
+    <img src="https://raw.githubusercontent.com/H4dise/rzkala-dashboard/main/demo/thumb1.png" alt="داشبورد با فایل دمو" width="700">
   </a>
   <br>
-  <em>👆 برای تماشا روی تصویر کلیک کنید</em>
+  <em>👆 برای تماشای ویدیو کلیک کنید (۳۰ ثانیه)</em>
 </div>
 
 <br>
 
 <div align="center">
-  <h3>🎬 دمو - قسمت دوم</h3>
-  <a href="https://github.com/H4dise/rzkala-dashboard/blob/main/demo/demo2.mp4?raw=true" target="_blank">
-    <img src="https://github.com/H4dise/rzkala-dashboard/blob/main/demo/thumb2.png?raw=true" alt="دموی داشبورد - قسمت دوم" width="600">
+  <h3>🎬 دیسپلی با فایل ورودی کاربر</h3>
+  <a href="https://raw.githubusercontent.com/H4dise/rzkala-dashboard/main/demo/demo2.mp4" target="_blank">
+    <img src="https://raw.githubusercontent.com/H4dise/rzkala-dashboard/main/demo/thumb2.png" alt="دیسپلی با فایل ورودی کاربر" width="700">
   </a>
   <br>
-  <em>👆 برای تماشا روی تصویر کلیک کنید</em>
+  <em>👆 برای تماشای ویدیو کلیک کنید (۳۰ ثانیه)</em>
 </div>
